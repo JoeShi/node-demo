@@ -16,5 +16,5 @@ phases:
     - echo Entered the post_build phase...
     - echo Build completed on `date`
     - docker tag node-demo:latest 057005827724.dkr.ecr.cn-northwest-1.amazonaws.com.cn/node-demo:latest
-    - docker push 057005827724.dkr.ecr.cn-northwest-1.amazonaws.com.cn/espace:latest
+    - docker push 057005827724.dkr.ecr.cn-northwest-1.amazonaws.com.cn/node-demo:latest
     - echo Build Completed
