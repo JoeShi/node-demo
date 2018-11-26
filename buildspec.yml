@@ -9,12 +9,7 @@ phases:
     commands:
     - echo Entered the build phase...
     - echo Build started on `date`
-    - $(aws ecr get-login --no-include-email --region cn-northwest-1)
-    - docker build -t node-demo:latest .
   post_build:
     commands:
     - echo Entered the post_build phase...
     - echo Build completed on `date`
-    - docker tag node-demo:latest 057005827724.dkr.ecr.cn-northwest-1.amazonaws.com.cn/node-demo:latest
-    - docker push 057005827724.dkr.ecr.cn-northwest-1.amazonaws.com.cn/node-demo:latest
-    - echo Build Completed
