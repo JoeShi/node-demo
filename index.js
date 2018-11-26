@@ -10,3 +10,4 @@ setInterval(() => {
   const error = new Error('This is an error message');
   console.error(error);
 }, 3 * 1000);
+
