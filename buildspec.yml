@@ -10,7 +10,7 @@ phases:
     - echo Entered the build phase...
     - echo Build started on `date`
     - $(aws ecr get-login --no-include-email --region cn-northwest-1)
-    - docker build -t espace:beta .
+    - docker build -t node-demo:latest .
   post_build:
     commands:
     - echo Entered the post_build phase...
