@@ -7,6 +7,6 @@ setInterval(() => {
 }, 2 * 1000);
 
 setInterval(() => {
-  const error = new Error('Fuck this error');
+  const error = new Error('This is an error message');
   console.error(error);
 }, 3 * 1000);
