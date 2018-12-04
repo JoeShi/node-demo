@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.363.0",
     "log-timestamp": "^0.2.1",
     "random-sentence": "^1.0.4"
   }
