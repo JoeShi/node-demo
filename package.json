@@ -10,7 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.363.0",
+    "cognito-jwt-token-validator": "^1.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "jwk-to-pem": "^2.0.1",
     "log-timestamp": "^0.2.1",
-    "random-sentence": "^1.0.4"
+    "node-jose": "^1.1.1",
+    "random-sentence": "^1.0.4",
+    "request": "^2.88.0"
   }
 }
